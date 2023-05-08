@@ -2,3 +2,9 @@ node_modules/
 .cache/
 public
 src/gatsby-types.d.ts
+
+# Local env
+.env
+
+# MAC OSX
+.DS_Store
