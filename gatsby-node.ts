@@ -1,6 +1,7 @@
+import { CreateWebpackConfigArgs } from "gatsby"
 import path from "path"
 
-export function onCreateWebpackConfig({ actions }: any) {
+export function onCreateWebpackConfig({ actions }: CreateWebpackConfigArgs) {
   actions.setWebpackConfig({
     resolve: {
       fallback: {

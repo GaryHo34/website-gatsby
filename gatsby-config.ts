@@ -28,6 +28,7 @@ const config: GatsbyConfig = {
       __key: "pages",
     },
   ],
+  jsxRuntime: "automatic",
 }
 
 export default config
