@@ -27,8 +27,9 @@ export const GlobalStyle = createGlobalStyle`
     display: block;
   }
   body {
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1;
-    background-color: red;
+    background-color: #141414;
   }
   ol, ul {
     list-style: none;
