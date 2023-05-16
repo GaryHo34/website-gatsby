@@ -1,3 +1,4 @@
+import { DefaultLayout, Navbar } from "@components"
 import { TypeAnimation } from "react-type-animation"
 import styled from "styled-components"
 
@@ -24,7 +25,7 @@ const SubHeading = styled.h1`
 
 const GreetingBlock = styled.div`
   position: fixed;
-  top: 50%;
+  top: 40%;
   left: 20%;
 
   span {
@@ -36,7 +37,7 @@ const GreetingBlock = styled.div`
 
 export default function App() {
   return (
-    <main>
+    <DefaultLayout>
       <GreetingBlock>
         <HelloH1>Hello, I'm</HelloH1>
         <NameH1>Gary Ho</NameH1>
@@ -57,6 +58,6 @@ export default function App() {
           />
         </SubHeading>
       </GreetingBlock>
-    </main>
+    </DefaultLayout>
   )
 }
